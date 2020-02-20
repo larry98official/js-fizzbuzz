@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#container .content {
+    height: 180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    padding: 0 20px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul li {
+    text-align: center;
+}
+
+.last {
+    border-right: 1px solid black;
+}
